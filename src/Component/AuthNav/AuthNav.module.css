@@ -1,0 +1,20 @@
+.authNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+ .listItem {
+     margin-right: 10px;
+ }
+
+.navigationlink {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.navigationLinkActive  {
+    color: tomato;
+}

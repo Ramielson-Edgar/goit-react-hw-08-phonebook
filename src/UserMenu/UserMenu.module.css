@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    width: 300px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.bnt{
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: #3EBD93;
+    border-radius: 3px;
+    outline: none;
+    border-style: none;
+    cursor: pointer;
+}
+

@@ -1,0 +1,32 @@
+ .wrapper {
+     position: relative;
+   
+ }
+ 
+
+.header {
+    position: absolute;
+    top:  150px;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.title {
+    font-size: 100px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+ .banner {
+   max-width: 100%;
+   height: auto;
+   overflow:hidden;
+overflow-y:hidden;  /*для вертикального*/
+overflow-x:hidden;  
+     object-fit: cover;
+ }
